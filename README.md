@@ -14,7 +14,20 @@ Este repositorio contiene una estructura de base de datos SQL optimizada para al
 
 Este módulo permite importar registros clínicos desde un archivo Excel (`.xlsx`) directamente a la base de datos del sistema. Es ideal para cargar grandes volúmenes de datos de forma automatizada y segura.
 
----
+---## 📊 Tecnologías usadas en el proyecto
+
+**PHP**  
+![PHP](https://img.shields.io/badge/PHP-40%25-blue)
+
+**MySQL**  
+![MySQL](https://img.shields.io/badge/MySQL-30%25-green)
+
+**JavaScript**  
+![JavaScript](https://img.shields.io/badge/JavaScript-20%25-yellow)
+
+**CSS**  
+![CSS](https://img.shields.io/badge/CSS-10%25-blueviolet)
+
 
 ### 🧩 Características
 
