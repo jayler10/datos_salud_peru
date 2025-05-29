@@ -10,5 +10,19 @@ Este repositorio contiene una estructura de base de datos SQL optimizada para al
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge"/>
 </p>
+## 📥 Importar Datos de Salud
+
+Este módulo permite importar registros clínicos desde un archivo Excel (`.xlsx`) directamente a la base de datos del sistema. Es ideal para cargar grandes volúmenes de datos de forma automatizada y segura.
+
+---
+
+### 🧩 Características
+
+- ✅ **Conexión automática** con la base de datos
+- 🗄️ **Tabla destino:** `datos_salud`
+- 📊 **Visualización en tiempo real** de la cantidad de registros existentes
+- 📋 **Validación del archivo Excel** antes de importarlo
+- 🚀 **Carga instantánea** de datos clínicos con un solo clic
+- ![Uploading image.png…]()
 
 ---
