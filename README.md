@@ -51,4 +51,12 @@ Cada uno de estos directorios nos ayuda a analizar las variables.
 
 ![foto4](images/image3.png)
 
+## 👩‍💻 Desarrolladores
+
+| Nombre Completo       | Rol                   | Contacto                      | Perfil GitHub                         |
+|----------------------|-----------------------|-------------------------------|-------------------------------------|
+| jayler machaca       | Desarrollador Backend  | jayler10jobs@gmail.com         |      |
+|                      | Desarrolladora Frontend|                                |    |
+|                      | Analista de Datos      |                                |           |
+
 ---
