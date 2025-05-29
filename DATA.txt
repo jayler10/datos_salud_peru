@@ -1,0 +1,153 @@
+ID (probablemente no necesario si se usará AUTO_INCREMENT)
+
+Departamento (Diresa)
+
+Red
+
+Microred
+
+EESS (nombre del establecimiento)
+
+Departamento del EESS
+
+Provincia del EESS
+
+Distrito del EESS
+
+Renipress
+
+País
+
+Sexo
+
+Edad en meses
+
+[Vacío]
+
+[Vacío]
+
+[Vacío]
+
+[Vacío]
+
+[Vacío]
+
+[Vacío]
+
+[Vacío]
+
+[Vacío]
+
+[Vacío]
+
+Fecha de hemoglobina
+
+Cred
+
+Suplementación
+
+Consejería
+
+Sesión
+
+[Vacío]
+
+Fecha atención
+
+Fecha nacimiento
+
+Ubigeo REN
+
+Departamento REN
+
+Provincia REN
+
+Distrito REN
+
+Altura
+
+Hemoglobina
+
+Diagnóstico de anemia
+
+CREATE TABLE IF NOT EXISTS datos_salud (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    sexo VARCHAR(10),
+    edad_meses DECIMAL(6,2),
+    fecha_hemoglobina DATE,
+    hemoglobina DECIMAL(6,2),
+    dx_anemia VARCHAR(50),
+    prov_eess VARCHAR(100),
+    distrito_ren VARCHAR(100),
+    altura DECIMAL(6,2)
+);
+
+ 1. Dashboard de Anemia Infantil
+Resumen general con KPIs:
+
+Total de registros procesados.
+
+Promedio general de hemoglobina.
+
+Porcentaje de casos con:
+
+Anemia leve
+
+Anemia moderada
+
+Normal
+
+Promedio de edad (en meses).
+
+🔹 2. Gráficos interactivos
+Gráfico	Qué muestra	Herramientas sugeridas
+📊 Barra de diagnóstico por sexo	Comparación de anemia por sexo (M vs F)	Chart.js / Highcharts
+📈 Hemoglobina vs Edad	Ver si hay correlación entre edad y niveles de hemoglobina	Chart.js / D3.js
+🌍 Mapa por distrito o provincia	Dónde se concentra la anemia o los niveles más bajos de Hb	Leaflet.js / Mapbox
+📊 Distribución por altitud	Si la altitud influye en la hemoglobina	Chart.js
+
+🔹 3. Filtros interactivos
+Permite a los usuarios explorar los datos con filtros como:
+
+Sexo
+
+Provincia / distrito
+
+Diagnóstico de anemia
+
+Rango de edad
+
+Rango de hemoglobina
+
+🔹 4. Tabla dinámica de pacientes
+Una tabla con:
+
+Sexo
+
+Edad (en meses)
+
+Hemoglobina
+
+Diagnóstico
+
+Provincia y distrito
+
+Fecha de hemoglobina
+
+Altitud
+
+➡️ Usa DataTables.js para hacerla ordenable, filtrable y exportable.
+
+🔹 5. Tendencias temporales (si usas fechas)
+Si recolectas datos con frecuencia, puedes mostrar:
+
+Evolución mensual del promedio de hemoglobina.
+
+Aumento/disminución de casos de anemia.
+
+ALTER TABLE datos_salud
+    DROP COLUMN fecha_hemoglobina,
+    DROP COLUMN juntos,
+    DROP COLUMN sis,
+    DROP COLUMN suplementacion,
+    DROP COLUMN consejeria;
