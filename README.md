@@ -29,7 +29,8 @@ Este módulo permite importar registros clínicos desde un archivo Excel (`.xlsx
 📊 Visualizador de Datos de Salud de los peruanos.
 Esta página web permite visualizar y explorar variables clave relacionadas con la anemia a partir de datos clínicos y demográficos. Facilita el análisis de información como sexo, ubicación geográfica, altura, niveles de hemoglobina y diagnósticos, para entender mejor la prevalencia y distribución de la anemia en distintas regiones.
 
-[foto1](images/image1.png)
-[foto1](images/image2.png)
-[foto1](images/image3.png)
+[foto2](images/image1.png)
+cada de estas directorios nos ayudan a analisar las variables 
+[foto3](images/image2.png)
+[foto4](images/image3.png)
 ---
