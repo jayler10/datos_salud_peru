@@ -15,18 +15,19 @@ Este repositorio contiene una estructura de base de datos SQL optimizada para al
 Este módulo permite importar registros clínicos desde un archivo Excel (`.xlsx`) directamente a la base de datos del sistema. Es ideal para cargar grandes volúmenes de datos de forma automatizada y segura.
 
 ---## 📊 Tecnologías usadas en el proyecto
+### Variables principales
 
-**PHP**  
-![PHP](https://img.shields.io/badge/PHP-40%25-blue)
-
-**MySQL**  
-![MySQL](https://img.shields.io/badge/MySQL-30%25-green)
-
-**JavaScript**  
-![JavaScript](https://img.shields.io/badge/JavaScript-20%25-yellow)
-
-**CSS**  
-![CSS](https://img.shields.io/badge/CSS-10%25-blueviolet)
+| Campo               | Tipo de dato    | Obligatorio |
+|---------------------|-----------------|-------------|
+| Sexo                | varchar(10)     | ✅ Sí       |
+| Departamento        | varchar(50)     | ✅ Sí       |
+| Provincia           | varchar(50)     | ✅ Sí       |
+| Distrito            | varchar(50)     | ✅ Sí       |
+| Altura msnm         | int             | ✅ Sí       |
+| Hemoglobina         | decimal(5,2)    | ✅ Sí       |
+| Diagnóstico de anemia | varchar(50)   | ✅ Sí       |
+| Establecimiento     | varchar(150)    | ✅ Sí       |
+| Fecha de nacimiento | date            | ✅ Sí       |
 
 
 ### 🧩 Características
