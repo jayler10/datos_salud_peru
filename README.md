@@ -23,6 +23,7 @@ Este módulo permite importar registros clínicos desde un archivo Excel (`.xlsx
 - 📊 **Visualización en tiempo real** de la cantidad de registros existentes
 - 📋 **Validación del archivo Excel** antes de importarlo
 - 🚀 **Carga instantánea** de datos clínicos con un solo clic
-- ![Uploading image.png…]()
+- ![foto1](images/image.png)
+
 
 ---
